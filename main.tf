@@ -56,7 +56,7 @@ resource "google_monitoring_notification_channel" "email_channel" {
   type         = "email"
 
   labels = {
-    email_address = "avisheks@gmail.com" # Replace with your email
+    email_address = "avish@gmail.com" # Replace with your email
   }
 }
 
